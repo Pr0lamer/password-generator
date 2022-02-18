@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background: #1F2937;
+}
+
+.container{
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    
+    color: #FFFFFF;
+    padding: 118px 50px 50px 50px;
+}
+
+.button-block{
+    padding: 0px 0px 44px 0px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+.result-block{
+    padding: 35px 0px 46px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    left: 52px;
+    top: 118px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+/* or 100% */
+
+    letter-spacing: -0.025em;
+
+}
+
+h2 > span{
+    color: #10B981;
+    display: block;
+}
+
+#generate-btn{
+    color: white;
+    background-color: #10B981;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    width: 223px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 6px;
+}
+
+.password-box{
+    width: 211px;
+    height: 39px;
+    color: #10B981;
+    border: none;
+    background: #273549;
+    border-radius: 6px;
+    flex: 25%;
+    margin: 0px 0px 27px 0px;
+    text-align: center;
+}
+.password-box:nth-child(odd){
+    margin-right: 24px;
+}
