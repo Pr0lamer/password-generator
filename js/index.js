@@ -21,15 +21,16 @@ generateBtn.addEventListener("click", ()=>{
 
 for(let i =0; i < passwordBox.length; i++){
     passwordBox[i].addEventListener("click", ()=>{
-        /* Select the text field */
-        passwordBox[i].select();
-        passwordBox[i].setSelectionRange(0, 99999); /* For mobile devices */
+        if(passwordBox[i].value !== ""){
+            /* Select the text field */
+            passwordBox[i].select();
+            passwordBox[i].setSelectionRange(0, 99999); /* For mobile devices */
 
-        /* Copy the text inside the text field */
-        navigator.clipboard.writeText(passwordBox[i].value);
+            /* Copy the text inside the text field */
+            navigator.clipboard.writeText(passwordBox[i].value);
 
-        /* Alert the copied text */
-        alert("Copied the text: " + passwordBox[i].value);
+            alert("Copied the password: " + passwordBox[i].value);
+        }
+        
     });
 }
-//console.log(generator(12));

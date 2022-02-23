@@ -31,9 +31,8 @@ h2{
     font-weight: 800;
     font-size: 40px;
     line-height: 40px;
-/* or 100% */
-
     letter-spacing: -0.025em;
+    margin: 0px 0px 10px 0px;
 
 }
 
@@ -53,6 +52,9 @@ h2 > span{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border: none;
     border-radius: 6px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 }
 
 .password-box{
@@ -68,4 +70,24 @@ h2 > span{
 }
 .password-box:nth-child(odd){
     margin-right: 24px;
+}
+
+.generate-btn-icon{
+    background: url(../images/Icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 14px;
+    height: 18px;
+    background-size: contain;
+    vertical-align:middle;
+    margin: 0px 15px 0px 0px ;
+}
+
+.button-block > p{
+    margin: 0px 0px 51px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+
 }
